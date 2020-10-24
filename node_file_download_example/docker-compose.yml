@@ -1,0 +1,6 @@
+services:
+  helloworld:
+    image: sandeepmishramca/codingwithamit:node_file_download_example
+    container_name: node_file_download_example
+    ports:
+      - 3000:3000
